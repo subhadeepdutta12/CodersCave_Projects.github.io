@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Subhadeep Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300;400&family=Pacifico&family=Poppins:ital,wght@0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.01rem;
+            color: rgb(156, 156, 233);
+        }
+
+
+
+        section div {
+            padding: 4rem;
+            text-align: center;
+        }
+
+        section ul {
+            list-style: none;
+        }
+
+        .section ul skills {
+            size: 2px;
+        }
+
+        .skills-first {
+            margin-top: 1px;
+            font-size: 30px;
+        }
+
+        .skills-second {
+            width: 50%;
+            float: left;
+            padding: 0;
+        }
+
+        .skills-third {
+            width: 50%;
+            float: left;
+            /* Change this to 'left' to align them next to each other */
+            padding: 0;
+        }
+        .skills-img{
+            width: 50px;
+        }
+        .skills-second ul li{
+            margin-bottom: 20px;
+        }
+        .skills-third ul li{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Subhadeep's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="portfolio.html">Home</a></li>
+                    <li><a href="portfolio.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="portfolio.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="about">
+            <div class="skills-first" data-aos="fade-right">
+                <h3>SKILLS</h3>
+            </div>
+            <div class="skills-second" data-aos="fade-right">
+                <ul>
+                    <li><img class="skills-img" src="html.png"></li>
+                    <li><img class="skills-img" src="CSS.png"></li>
+                    <li><img class="skills-img" src="JS.png"></li>
+                    <li><img class="skills-img" src="JQUERY.jpeg"></li>
+                </ul>
+            </div>
+            <div class="skills-third" data-aos="fade-right">
+                <ul>
+                    <li><img class="skills-img" src="BOOTSTRAPE.png"></li>
+                    <li><img class="skills-img" src="SQL.png"></li>
+                    <li><img class="skills-img" src="PYTHON.png"></li>
+                    <li><img class="skills-img" src="JAVA.png"></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
